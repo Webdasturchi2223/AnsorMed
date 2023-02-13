@@ -9,6 +9,10 @@
     <link rel="shortcut icon" href="img/logo-icon.svg" type="image/x-icon">
 </head>
 <body>
+    
+    <!-- br start -->
+    <div class="br"></div>
+    <!-- br end -->
 
     <!-- nav start -->
 
@@ -22,18 +26,19 @@
         </div>
 
         <ul class="mobile__list">
-            <li class="mobile__item"><a href="#" class="nav__link">Xizmatlar</a></li>
-            <li class="mobile__item"><a href="#" class="nav__link">Dorilar</a></li>
-            <li class="mobile__item"><a href="#" class="nav__link">Asal</a></li>
-            <li class="mobile__item"><a href="#" class="nav__link">Kontaktlar</a></li>
+            <li class="mobile__item"><a href="#services" class="nav__link">Xizmatlar</a></li>
+            <li class="mobile__item"><a href="#medicine" class="nav__link">Dorilar</a></li>
+            <li class="mobile__item"><a href="#honey" class="nav__link">Asal</a></li>
+            <li class="mobile__item"><a href="#contact" class="nav__link">Kontaktlar</a></li>
             <li class="mobile__item"><a href="#" class="nav__link">Blog</a></li>
         </ul>
 
-        <a href="#" class="mobile__btn">Qabulga yozilish</a>
+        <a href="#hero" class="mobile__btn">Qabulga yozilish</a>
 
     </div>
 
     <nav class="nav">
+
         <div class="nav__inner">
             
             <a href="./index.html" class="nav__logo">
@@ -42,26 +47,30 @@
             </a>
 
             <ul class="nav__list">
-                <li class="nav__item"><a href="#" class="nav__link">Xizmatlar</a></li>
-                <li class="nav__item"><a href="#" class="nav__link">Dorilar</a></li>
-                <li class="nav__item"><a href="#" class="nav__link">Asal</a></li>
-                <li class="nav__item"><a href="#" class="nav__link">Kontaktlar</a></li>
+                <li class="nav__item"><a href="#services" class="nav__link">Xizmatlar</a></li>
+                <li class="nav__item"><a href="#medicine" class="nav__link">Dorilar</a></li>
+                <li class="nav__item"><a href="#honey" class="nav__link">Asal</a></li>
+                <li class="nav__item"><a href="#contact" class="nav__link">Kontaktlar</a></li>
                 <li class="nav__item"><a href="#" class="nav__link">Blog</a></li>
             </ul>
 
-            <a href="#" class="btn">Qabulga yozilish</a>
+            <a href="#hero" class="btn">Qabulga yozilish</a>
 
             <div class="menu">
                 <div class="burger"></div>
             </div>
+
         </div>
+        
     </nav>
 
     <!-- nav end -->
 
+    
+
     <!-- hero start -->
 
-    <div class="hero">
+    <div class="hero" id="hero">
 
         <div class="container hero__container">
 
@@ -71,7 +80,7 @@
 
                 <p class="hero__text">Hijoma, manual terapiya, zuluk va turli tabiiy giyohlar eng ko’p uchraydigan kasalliklarni yengishda yordam beradi. Sog’ligingizni o’z ishining professionallariga ishonib topshiring.</p>
 
-                <a href="#" class="btn hero__btn">Qabulga yozilish</a>
+                <a href="#honey" class="btn hero__btn">Qabulga yozilish</a>
 
             </div>
 
@@ -85,21 +94,23 @@
 
     <!-- hero end -->
 
+
+
     <!-- services start -->
 
-    <div class="services">
+    <div class="services" id="services">
 
         <h2 class="services__title">Xizmatlar</h2>
         
         <div class="container services__container">
 
-            <div class="card">
+            <div class="card" id="medicine">
 
                 <div class="card__img-box">
                     <img class="card__img" src="./img/xizmat__hijoma.png" alt="Hijoma">
                 </div>
 
-                <div class="card__hero__">
+                <div class="card__text-box">
                     <h3 class="card__title">Hijoma</h3>
                     <p class="card__text">Imom Termiziy Abdulloh ibn Abbos raziyallohu anhumodan rivoyat qilgan hadisda rasululloh sallallohu alayhi va sallam dedilar: «Sizlar hijoma qiladigan kunlaringizning eng yaxshisi 17, 19 va 21-kunlardir» (bu kunlar hijrij-kamariy hisobdagi oylar kunlaridir).</p>
                 </div>
@@ -112,7 +123,7 @@
                     <img class="card__img" src="./img/xizmat__manual-terapiya.png" alt="Manual Terapiya">
                 </div>
 
-                <div class="card__hero__">
+                <div class="card__text-box">
                     <h3 class="card__title">Manual terapiya</h3>
                     <p class="card__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ac metus placerat, pellentesque enim ac, rhoncus lectus. Maecenas et posuere lorem. Fusce sed massa sit amet elit viverra hendrerit.</p>
                 </div>
@@ -122,37 +133,40 @@
             <div class="card">
 
                 <div class="card__img-box">
-                    <img class="card__img" src="./img/xizmat__zuluk.png" alt="Hijoma">
+                    <img class="card__img" src="./img/xizmat__zuluk.png" alt="Zuluk bilan davolash">
                 </div>
 
-                <div class="card__hero__">
+                <div class="card__text-box">
                     <h3 class="card__title">Zuluk bilan davolash</h3>
                     <p class="card__text">Girudoterapiya (lot. hirūdō — «zuluk» va qad. yun. θεραπεία — «davolash») — ma’lum kasalliklarni dorivor zuluklar (Hirudo medicinalis) yordamida davolash usuli. Fizioterapevtik muolaja, muqobil tibbiyotga oid sanaladi. Bunday zuluklar ushbu kichik sinf chuvchalchanglariga oid yagona tur hisoblanadi, qolganlari shifobaxsh ta’sir ko’rsatmaydi.</p>
                 </div>
 
             </div>
 
-            <div class="card">
+            <div class="card" id="honey">
 
                 <div class="card__img-box">
-                    <img class="card__img" src="./img/xizmat__tabiy.png" alt="Hijoma">
+                    <img class="card__img" src="./img/xizmat__tabiy.png" alt="Tabiiy dori vositalari">
                 </div>
 
-                <div class="card__hero__">
+                <div class="card__text-box">
                     <h3 class="card__title">Tabiiy dori vositalari</h3>
                     <p class="card__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ac metus placerat, pellentesque enim ac, rhoncus lectus. Maecenas et posuere lorem. Fusce sed massa sit amet elit viverra hendrerit.</p>
                 </div>
 
             </div>
             
-            <a href="#" class="btn services__btn">Qabulga yozilish</a>
+            <a href="#contact" class="btn services__btn">Qabulga yozilish</a>
 
         </div>
     </div>
 
     <!-- services end -->
 
-    <div class="contact">
+
+    <!-- contact start -->
+
+    <div class="contact" id="contact">
 
         <div class="container contact__container">
 
@@ -167,6 +181,11 @@
 
     </div>
 
+    <!-- contact end -->
+
+
+    <!-- footer start -->
+
     <footer class="footer">
         
         <div class="footer__container container">
@@ -177,16 +196,18 @@
             </a>
 
             <ul class="foot__list">
-                <li class="foot__item"><a class="foot__link" href="#">Xizmatlar</a></li>
-                <li class="foot__item"><a class="foot__link" href="#">Dorilar</a></li>
-                <li class="foot__item"><a class="foot__link" href="#">Asal</a></li>
-                <li class="foot__item"><a class="foot__link" href="#">Kontaktlar</a></li>
+                <li class="foot__item"><a class="foot__link" href="#services">Xizmatlar</a></li>
+                <li class="foot__item"><a class="foot__link" href="#medicine">Dorilar</a></li>
+                <li class="foot__item"><a class="foot__link" href="#honey">Asal</a></li>
+                <li class="foot__item"><a class="foot__link" href="#contact">Kontaktlar</a></li>
                 <li class="foot__item"><a class="foot__link" href="#">Blog</a></li>
             </ul>
             
         </div>
 
     </footer>
+
+    <!-- footer end -->
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js" integrity="sha512-STof4xm1wgkfm7heWqFJVn58Hm3EtS31XFaagaa8VMReCXAkQnJZ+jEy8PCC/iT18dFy95WcExNHFTqLyp72eQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.0.2/TweenMax.min.js"></script>
